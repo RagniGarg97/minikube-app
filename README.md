@@ -66,4 +66,3 @@ Next we'll be:
 ### Ingress (Separate Controller Required)
 The `03_ingress` sub-directory contains an optional Ingress definition. The `kubernetes.io/ingress.class` annotation may need to be changed to match that of your Ingress Controller. There is a second `v1.18` yaml file for Kubernetes versions v1.18.0 and earlier, which do not support the `networking.k8s.io/v1` APIVersion of Ingress.
 
-Note that an Ingress Controller must be installed for Ingress resources to function. See the [Ingress Nginx installation instructions](https://kubernetes.github.io/ingress-nginx/deploy/) for more information.
